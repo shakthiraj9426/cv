@@ -11,12 +11,22 @@ nav > ul > li >a{
     padding: 10px 30px;
     color: #e98bc2;
 }
-nav{
+/* nav{
     width: 100%;
     background-image: linear-gradient(to bottom right, rgb(112, 6, 122) ,rgba(194, 40, 168, 0.87));
     position: fixed;
     margin-top: 0px;
     opacity: 0.8;
+    top: 0;
+    left: 0;
+    z-index: 1;
+} */
+nav{
+    width: 100%;
+    background-image: linear-gradient(to bottom left, rgb(112, 6, 122) ,rgba(194, 40, 168, 0.87));
+    position: fixed;
+    margin-top: 0px;
+    opacity: 0.9;
     top: 0;
     left: 0;
     z-index: 1;
@@ -49,19 +59,26 @@ h3{
     height:600px;
     box-shadow: 0 0 60px rgb(255, 138, 255);
 }
-.content{
+/* .content{
     height: 100%;
     width: 100%;
     text-align: center;
     font-family: 'Merriweather', serif;
     color:#40514E;
-    /* box-shadow:0 0 170px rgb(243, 243, 243); */
     background-image: linear-gradient(to bottom right, rgb(94, 5, 67),rgb(75, 1, 53),black,rgb(49, 5, 5),rgb(87, 14, 90));
-    /* background-color: rgba(124, 63, 148, 0.678); */
+
+} */
+.content{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color:#40534E;
+    background-image: linear-gradient(to bottom left, rgb(94, 5, 67),rgb(75, 1, 53), gray, rgb(49, 5, 5), rgb(87, 14, 90));
 
 }
 .btn:hover {
-	background-color:#e66049;
+	background-color:#e67049;
 }
 #a:active {
 	position:relative;
@@ -102,7 +119,7 @@ h3{
     background-size: 500%;
     opacity: 0;
     transition: 0.5s;
-    animation: animate 20s linear infinite;
+    animation: animate 25s linear infinite;
 }
 #a::before{
     content: '';
@@ -120,7 +137,7 @@ h3{
     filter: blur(20px);
     opacity: 0;
     transition: 0.5s;
-    animation: animate 20s linear infinite;
+    animation: animate 22s linear infinite;
 }
 #a:hover::before,
 #a:hover::after
@@ -150,7 +167,7 @@ h3{
     background:linear-gradient(to top right, rgb(175, 45, 136),rgb(96, 5, 104));
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    color:#b3d6e6;
+    color:#b3d5e6;
     transition: 0.5s;
     z-index: 1;
 }  
@@ -160,7 +177,7 @@ h3{
 }
 
 .footer-link{
-    color: #c074cf;
+    color: #c174cf;
     margin: 20px 20px;
     font-size: x-large;
     transition: .5s;
